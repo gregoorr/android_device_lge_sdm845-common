@@ -7,5 +7,7 @@
 
     <!-- ROM maintainer name -->
     <string name="build_maintainer_summary">gregoorr</string>
+    
+    <string name="build_maintainer_telegram">https://t.me/greg_oorr</string>
 
 </resources>
