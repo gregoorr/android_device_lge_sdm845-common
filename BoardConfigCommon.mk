@@ -170,6 +170,9 @@ ENABLE_VENDOR_RIL_SERVICE := true
 #TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 TARGET_RIL_VARIANT := caf
 
+# Security patch level
+VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
+
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 #SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
