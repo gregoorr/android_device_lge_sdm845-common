@@ -194,3 +194,6 @@ wifi.interface=wlan0
 
 # Waterproof
 ro.support.waterproof=true
+
+# Zygote
+zygote.critical_window.minute=10
