@@ -142,7 +142,7 @@ void init_target_properties() {
 void vendor_load_properties() {
     LOG(INFO) << "Loading vendor specific properties";
     init_target_properties();
-    LOG(INFO) << "Loading Coral Fingerprint";
+    LOG(INFO) << "Loading Cheetah Fingerprint";
 	property_override_multifp("ro.build.fingerprint", "ro.system.build.fingerprint", "ro.bootimage.build.fingerprint",
-	    "ro.vendor.build.fingerprint", "google/raven/raven:12/SD1A.210817.036/7805805:user/release-keys");
+	    "ro.vendor.build.fingerprint", "google/cheetah/cheetah:13/TD1A.221105.003/9229241:user/release-keys");
 }
