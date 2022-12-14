@@ -63,8 +63,11 @@ debug.sf.enable_gl_backpressure=1
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
 debug.sf.disable_client_composition_cache=1
+
 ro.config.avoid_gfx_accel=false
 debug.sf.latch_unsignaled=0
+ro.config.avoid_gfx_accel=true
+debug.sf.auto_latch_unsignaled=true
 sdm.debug.disable_inline_rotator=1
 sdm.debug.disable_inline_rotator_secure=1
 ro.surface_flinger.protected_contents=true
@@ -141,3 +144,11 @@ ro.hwui.text_large_cache_height=4096
 
 #Disable MTE Async for system server
 arm64.memtag.process.system_server=off
+
+# Disable Skia tracing by default
+debug.hwui.skia_atrace_enabled=false
+
+# Adaptive Suspend
+suspend.short_suspend_threshold_millis=2000
+suspend.short_suspend_backoff_enabled=true
+suspend.max_sleep_time_millis=40000
