@@ -10,4 +10,7 @@
     
     <string name="build_maintainer_telegram">https://t.me/greg_oorr</string>
 
+    <!-- Build status -->
+    <string name="build_status_summary">Stable</string>
+
 </resources>
