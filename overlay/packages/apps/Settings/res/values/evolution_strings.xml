@@ -4,13 +4,11 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
-    <!-- ROM maintainer name -->
+    <!-- About device screen, build maintainer -->
     <string name="build_maintainer_summary">gregoorr</string>
-    
-    <string name="build_maintainer_telegram">https://t.me/greg_oorr</string>
+    <string name="build_device_url">https://t.me/joinchat/AklErk3R6SM5BjSbTdP1BA</string>
+    <string name="build_maintainer_donate_url">https://t.me/greg_oorr</string>
 
     <!-- Build status -->
     <string name="build_status_summary">Stable</string>
-
 </resources>
