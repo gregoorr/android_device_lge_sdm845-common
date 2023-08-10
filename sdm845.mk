@@ -333,10 +333,6 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0 \
     android.hardware.keymaster@3.0.vendor
 
-# Lineage Health
-PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
-
 # Media
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
@@ -545,6 +541,10 @@ PRODUCT_BOOT_JARS += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.lge_sdm845
+
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
