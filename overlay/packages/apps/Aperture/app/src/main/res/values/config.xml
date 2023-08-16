@@ -35,11 +35,11 @@
     -->
     <string-array name="config_additionalVideoConfigurations">
         <!-- No additional configuration is added by default. -->
-        <item>0</item> <item>sd|hd|fhd|</item> <item>60</item>
-        <item>1</item> <item>sd|hd|fhd|</item> <item>60|120</item>
-        <item>2</item> <item>sd|hd|fhd|</item> <item>60|120</item>
-        <item>3</item> <item>sd|hd|fhduhd||</item> <item>60|120</item>
-        <item>4</item> <item>sd|hd|fhd|uhd|</item> <item>60|120</item>
+        <item>0</item> <item>hd|fhd|uhd</item> <item>60|120</item>
+        <item>1</item> <item>hd|fhd|uhd</item> <item>60|120</item>
+        <item>2</item> <item>hd|fhd|uhd</item> <item>60|120</item>
+        <item>3</item> <item>hd|fhd|</item> <item>60|120</item>
+        <item>4</item> <item>hd|fhd|</item> <item>60|120</item>
     </string-array>
 
 
