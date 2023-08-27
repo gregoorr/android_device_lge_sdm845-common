@@ -45,8 +45,10 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := 560dpi
 PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
 
-# Apex
-OVERRIDE_PRODUCT_COMPRESSED_APEX := false
+# Force disable updating of APEXes when flatten APEX flag is enabled
+ifeq ($(OVERRIDE_TARGET_FLATTEN_APEX),true)
+PRODUCT_PRODUCT_PROPERTIES += ro.apex.updatable=false
+endif
 
 # Additional native libraries
 PRODUCT_COPY_FILES += \
@@ -549,8 +551,8 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.lge_sdm845
 
 # LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service.lge_sdm845
+#PRODUCT_PACKAGES += \
+#   vendor.lineage.livedisplay@2.0-service.lge_sdm845
 
 # Touch
 PRODUCT_PACKAGES += \
