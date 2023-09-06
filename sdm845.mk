@@ -494,10 +494,6 @@ PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
 
-# RenderScript
-PRODUCT_PACKAGES += \
-    android.hardware.renderscript@1.0-impl
-
 # Qtimapper Shim
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mappershim \
@@ -535,6 +531,8 @@ PRODUCT_PACKAGES += \
 
 # Speed profile services and wifi-service to reduce RAM and storage.
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
+PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
+PRODUCT_DEX_PREOPT_BOOT_IMAGE_PROFILE_LOCATION := frameworks/base/config/boot-image-profile.txt
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
