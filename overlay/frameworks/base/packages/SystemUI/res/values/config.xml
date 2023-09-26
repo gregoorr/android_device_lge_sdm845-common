@@ -48,8 +48,8 @@
     <!-- Doze: can we assume the pickup sensor includes a proximity check? -->
     <bool name="doze_pickup_performs_proximity_check">true</bool>
 
-    <!-- FPSInfoService Fps file path -->
-    <string name="config_fpsInfoSysNode" translatable="false">/sys/class/drm/card0/sde-crtc-0/measured_fps</string>
+    <!-- FPSInfoService FPS node file path -->
+    <string name="config_fpsInfoSysNode" translatable="false">/sys/class/drm/sde-crtc-0/measured_fps</string>
     
     <!-- QS System Info -->
     <string name="config_sysCPUTemp">/sys/devices/virtual/thermal/thermal_zone0/temp</string>
