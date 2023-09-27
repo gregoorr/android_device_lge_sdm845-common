@@ -211,8 +211,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Launcher3QuickStep \
-    SettingsGoogle \
-    SystemUIGoogle
+    Settings \
+    SystemUI
 
 # DAC
 PRODUCT_PACKAGES += \
