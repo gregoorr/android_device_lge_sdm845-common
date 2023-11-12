@@ -118,7 +118,8 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libvolumelistener \
     tinymix \
-    libtinycompress
+    libtinycompress \
+    libtinycompress.vendor
 
 
 PRODUCT_COPY_FILES += \
@@ -159,6 +160,7 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
     audio.bluetooth.default \
     liba2dpoffload \
+    libbthost_if \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
     vendor.qti.hardware.bluetooth_audio@2.1.vendor \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
@@ -229,6 +231,7 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
+    android.hardware.graphics.composer@2.2-impl \
     android.hardware.graphics.composer@2.2-service \
     android.hardware.graphics.mapper@2.0-impl-qti-display \
     vendor.qti.hardware.display.allocator-service \
@@ -237,6 +240,7 @@ PRODUCT_PACKAGES += \
     gralloc.sdm845 \
     hwcomposer.sdm845 \
     libtinyxml \
+    libtinyxml.vendor \
     libvulkan \
     memtrack.sdm845 \
     libqdutils \
@@ -246,7 +250,7 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.14 \
     vendor.display.config@1.14.vendor \
     vendor.display.config@2.0 \
-    vendor.display.config@2.0.vendor
+    vendor.display.config@2.0.vendor \
 
 # Configstore
 PRODUCT_PACKAGES += \
@@ -305,7 +309,9 @@ PRODUCT_PACKAGES += \
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
+    android.hidl.base@1.0_system \
     android.hidl.manager@1.0 \
+    android.hidl.manager@1.0_system \
     libhidltransport \
     libhidltransport.vendor \
     libhwbinder \
@@ -552,7 +558,7 @@ PRODUCT_PACKAGES += \
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.1-service.lge_sdm845
+    vendor.lineage.livedisplay@2.0-service.lge_sdm845
 
 # Touch
 PRODUCT_PACKAGES += \
