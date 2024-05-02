@@ -1,4 +1,8 @@
+allow init sysfs_lge_fingerprint:file { open read write };
+
 allow init socket_device:sock_file { unlink setattr create };
+
+allow init hal_fingerprint_default_exec:file { execute };
 
 allow init vfat:dir search;
 

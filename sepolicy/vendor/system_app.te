@@ -3,3 +3,6 @@ r_dir_file(system_app, {
     proc_vmallocinfo
     sysfs_zram
 });
+
+allow system_app sysfs_lge_fingerprint:dir r_dir_perms;
+allow system_app sysfs_lge_fingerprint:file rw_file_perms;
