@@ -91,6 +91,7 @@ vendor.audio.feature.vbat.enable=true
 vendor.audio.feature.wsa.enable=false
 
 # Bluetooth
+bluetooth.device.default_name=LG V40 ThinQ
 persist.bluetooth.a2dp_offload.disabled=true
 persist.vendor.bt.a2dp.aac_whitelist=false
 persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxhd-aac-ldac
@@ -160,6 +161,7 @@ ro.soc.model=SDM845
 persist.vendor.ssr.restart_level=ALL_ENABLE
 
 # USB
+vendor.usb.product_string=LG V40 ThinQ
 persist.sys.usb.config.extra=none
 
 # Volume
