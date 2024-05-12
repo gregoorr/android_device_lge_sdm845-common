@@ -508,6 +508,9 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2
 
+# Scudo
+PRODUCT_USE_SCUDO := true
+
 # Seccomp policy
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/seccomp/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
