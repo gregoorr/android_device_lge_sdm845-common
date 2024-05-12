@@ -527,9 +527,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel \
     hardware/lge
 
-# Scudo
-PRODUCT_DISABLE_SCUDO := true
-
 # Telephony
 PRODUCT_PACKAGES += \
     qti-telephony-hidl-wrapper \
