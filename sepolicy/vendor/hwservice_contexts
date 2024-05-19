@@ -22,5 +22,3 @@ vendor.lge.hardware.lgdata::ILgDataVendorRil u:object_r:hal_lgdata_hwservice:s0
 vendor.lge.hardware.vss_ims::IVssIms u:object_r:hal_vssims_hwservice:s0
 
 vendor.lge.hardware.radio::ILgeRadio u:object_r:hal_lgradio_hwservice:s0
-
-vendor.qti.hardware.mwqemadapter::IMwqemAdapter u:object_r:hal_mwqemadapter_hwservice:s0
